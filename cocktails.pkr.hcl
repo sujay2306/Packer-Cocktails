@@ -23,8 +23,6 @@ source "amazon-ebs" "cocktails" {
     most_recent = true
     owners      = ["amazon"]
   }
-
-
   instance_type = "t2.micro"
   region = "us-west-2"
   ssh_username = "ec2-user"
