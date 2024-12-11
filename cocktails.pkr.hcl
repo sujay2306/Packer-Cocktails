@@ -16,7 +16,7 @@ source "amazon-ebs" "cocktails" {
 
   source_ami_filter {
     filters = {
-      name                = "amzn2-ami-hvm-2.*.1-x86_64-gp2"
+      name                = "amzn2-ami-hvm-2.*.1-x86_64-gp3"
       root-device-type    = "ebs"
       virtualization-type = "hvm"
     }
